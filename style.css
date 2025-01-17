@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Added for better layout control */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Background Image Styling */
+.bg-image-1 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 10%;
+}
+
+.bg-image-1 img {
+  width: calc(100% / 1);
+  height: calc(100% / 1);
+}
+
+/* Navbar Styling */
+.navbar {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.ul-data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  padding: 12px 20px;
+  color: #303030;
+  font-size: 28px;
+  transition: background-color 0.3s;
+}
+
+li a:hover {
+  background-color: #8ecae6;
+  color: white;
+}
+
+/* Project section Styling */
+.project-table td {
+  left: 30px;
+  padding: 30px 25px;
+}
+.project-table img {
+  border: 2px solid black;
+  height: 200px;
+  width: 250px;
+}
+
+/* About Section Styling */
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 20px;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 20px;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  font-size: 18px;
+  word-spacing: 4px;
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+}
+
+.members img {
+  width: 100%;
+  height: 60%;
+}
+
+.members h1 {
+  padding-left: 0px;
+  font-size: 28px;
+}
+.members h2 {
+  padding-left: 0px;
+  font-size: 18px;
+  color: grey;
+}
+.members p {
+  padding-left: 0px;
+  font-size: 12px;
+  max-width: 250px;
+}
+.members button{
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+/* Contact */
+.input-fields {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.input-fields input {
+  padding: 10px;
+  width: 1100px;
+  height: 40px;
+}
+.input-fields button {
+  width: 200px;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+}
