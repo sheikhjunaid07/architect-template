@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Added for better layout control */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Background Image Styling */
+.bg-image-1 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 10%;
+}
+
+.bg-image-1 img {
+  width: calc(100% / 1);
+  height: calc(100% / 1);
+}
+
+
+
+

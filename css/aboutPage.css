@@ -1,0 +1,53 @@
+@import url("style.css");
+
+/* About Section Styling */
+h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 20px;
+  }
+  
+  h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 20px;
+  }
+  
+  p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    font-size: 18px;
+    word-spacing: 4px;
+  }
+  
+  .members {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .members img {
+    width: 100%;
+    height: 60%;
+  }
+  
+  .members h1 {
+    padding-left: 0px;
+    font-size: 40px;
+  }
+  .members h2 {
+    padding-left: 0px;
+    font-size: 26px;
+    color: grey;
+  }
+  .members p {
+    padding-left: 0px;
+    font-size: 16px;
+    max-width: 250px;
+  }
+  .members button {
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
+  

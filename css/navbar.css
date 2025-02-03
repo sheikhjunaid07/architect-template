@@ -1,0 +1,66 @@
+@import url("style.css");
+
+
+/* Navbar Styling */
+
+.navbar {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  padding: 4px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.ul-data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+/* li a {
+  text-decoration: none;
+  padding: 12px 16px;
+  color: #303030;
+  font-size: 28px;
+  transition: background-color 0.3s;
+} */
+
+/* li a:hover {
+  background-color: #8ecae6;
+  color: white;
+} */
+
+li a {
+  transition: 0.4s;
+  color: black;
+  font-size: 28px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  position: relative;
+}
+li a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  bottom: 0;
+  left: 50%;
+  background-color: #303030;
+  transition: all 0.4s;
+}
+li a:hover::before {
+  width: 100%;
+  left: 0;
+}
