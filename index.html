@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Architect</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/projectPage.css" />
+    <link rel="stylesheet" href="./css/aboutPage.css" />
+    <link rel="stylesheet" href="./css/contactPage.css" />
   </head>
   <body>
     <!-- Background Image -->
     <div class="bg-image-1">
       <img src="./images/bg-images/building.jpg" alt="background Image" />
     </div>
+
     <!-- Navbar -->
     <div class="navbar">
       <div>
@@ -38,61 +43,101 @@
       <table class="project-table">
         <tr>
           <td>
-            <img
-              src="./images/projects-images/image1.jpeg"
-              alt="background image"
-            />
+            <div class="img-desc">
+              <img
+                src="./images/projects-images/image1.jpeg"
+                alt="background image"
+              />
+              <div class="overlay">
+                <div class="text"></div>
+              </div>
+            </div>
           </td>
           <td>
-            <img
-              src="./images/projects-images/image2.jpeg"
-              alt="background image"
-            />
+            <div class="img-desc">
+              <img
+                src="./images/projects-images/image2.jpeg"
+                alt="background image"
+              />
+              <div class="overlay">
+                <div class="text"></div>
+              </div>
+            </div>
           </td>
           <td>
-            <img
-              src="./images/projects-images/image3.jpeg"
-              alt="background image"
-            />
+            <div class="img-desc">
+              <img
+                src="./images/projects-images/image3.jpeg"
+                alt="background image"
+              />
+              <div class="overlay">
+                <div class="text"></div>
+              </div>
+            </div>
           </td>
           <td>
-            <img
-              src="./images/projects-images/image4.jpeg"
-              alt="background image"
-            />
+            <div class="img-desc">
+              <img
+                src="./images/projects-images/image4.jpeg"
+                alt="background image"
+              />
+              <div class="overlay">
+                <div class="text"></div>
+              </div>
+            </div>
           </td>
         </tr>
         <tr>
           <td>
-            <img
-              src="./images/projects-images/image5.jpeg"
-              alt="background image"
-            />
+            <div class="img-desc">
+              <img
+                src="./images/projects-images/image5.jpeg"
+                alt="background image"
+              />
+              <div class="overlay">
+                <div class="text"></div>
+              </div>
+            </div>
           </td>
           <td>
-            <img
-              src="./images/projects-images/image6.jpeg"
-              alt="background image"
-            />
+            <div class="img-desc">
+              <img
+                src="./images/projects-images/image6.jpeg"
+                alt="background image"
+              />
+              <div class="overlay">
+                <div class="text"></div>
+              </div>
+            </div>
           </td>
           <td>
-            <img
-              src="./images/projects-images/image7.jpeg"
-              alt="background image"
-            />
+            <div class="img-desc">
+              <img
+                src="./images/projects-images/image7.jpeg"
+                alt="background image"
+              />
+              <div class="overlay">
+                <div class="text"></div>
+              </div>
+            </div>
           </td>
           <td>
-            <img
-              src="./images/projects-images/image8.jpeg"
-              alt="background image"
-            />
+            <div class="img-desc">
+              <img
+                src="./images/projects-images/image8.jpeg"
+                alt="background image"
+              />
+              <div class="overlay">
+                <div class="text"></div>
+              </div>
+            </div>
           </td>
         </tr>
       </table>
     </div>
     <br /><br /><br />
     <!--About Page-->
-    <h1>About Us</h1>
+    <h1 id="about">About Us</h1>
     <br />
     <br />
     <p>
@@ -134,7 +179,7 @@
           design and consulting experience.
         </p>
         <br />
-        <br>
+        <br />
         <button id="button">Contact</button>
       </div>
 
@@ -148,7 +193,7 @@
           design experience.
         </p>
         <br />
-        <br>
+        <br />
         <button id="button">Contact</button>
       </div>
 
@@ -162,13 +207,16 @@
           of experience.
         </p>
         <br />
-        <br><br>
+        <br /><br />
         <button id="button">Contact</button>
       </div>
     </div>
     <br /><br /><br />
+    <br />
+    <br /><br /><br />
+    <br />
     <!--Contact-->
-    <div class="contact">
+    <div id="contact" class="contact">
       <h1>Contact</h1>
       <br />
       <p>Lets get in touch and talk about your next project.</p>
