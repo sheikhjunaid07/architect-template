@@ -18,6 +18,10 @@
   z-index: 10;
 }
 
+.navbar p{
+  font-weight: 500  ;
+}
+
 .ul-data {
   display: flex;
   align-items: center;
